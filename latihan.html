@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script>
+            alert('Hello world')
+            document.write("<h2>Hello world</h2>")
+            var x = 10
+            var katakata = "x = "+x
+            if(x < 7){
+                document.write("<h2>x kurang dari 7</h2>")
+            }
+
+            document.write("<h2> x= "+x+"</h2>")
+
+            var getTanggalHariIni =() => {
+                document.write("<h1>"+Date()+"</h1>")
+            }
+
+            var tambah = () => {
+                var input = parseIn(document.getElementById('imput1').value)
+                var input = parseIn(document.getElementById('imput2').value)
+                alert('A + B = '+(input1 + input2))
+            }
+        </script>
+    </head>
+    <body>
+        <input id="input1" type="text" >
+        <input id="input2" type="text" >
+        <button onClick="tambah()">tambah</button>
+        <button onclick="getTanggalhariIni()">getDate</button>
+    </body>
+</html>
